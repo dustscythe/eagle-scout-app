@@ -1,0 +1,8 @@
+# Commit message template for the Eagle Scout app repository
+#
+# Use Conventional Commits: type(scope): summary
+#
+# Types: feat, fix, docs, style, refactor, test, chore
+#
+# Example:
+# feat(project-portal): add project submission form
