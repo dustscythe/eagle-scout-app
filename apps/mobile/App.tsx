@@ -11,6 +11,8 @@ import AuthScreen from './screens/AuthScreen';
 import RoleSelectionScreen from './screens/RoleSelectionScreen';
 import { Session } from '@supabase/supabase-js';
 
+import RequirementsScreen from './screens/RequirementsScreen';
+import { BottomNavigation, Provider as PaperProvider } from 'react-native-paper';
 export default function App() {
   const [session, setSession] = useState<Session | null>(null);
   const [roleSelected, setRoleSelected] = useState(false);
