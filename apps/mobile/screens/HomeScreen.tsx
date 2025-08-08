@@ -11,7 +11,7 @@ export default function HomeScreen() {
       <Text style={{ marginTop: 8, marginBottom: 16 }}>
         Manage your eagle scout journey with ease.
       </Text>
-      <Button mode="contained" onPress={() => navigation.navigate('Project Portal')}>
+      <Button mode="contained" onPress={() => navigation.navigate('portal')}>
         Explore Projects
       </Button>
     </View>
