@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import { NavigationContainer } from '@react-navigation/native';
-import { BottomNavigation, Provider as PaperProvider, Text } from 'react-native-paper';
-import supabase from './lib/supabaseClient';
+import { supabase } from './lib/supabaseClient';
+
 import HomeScreen from './screens/HomeScreen';
 import ProjectPortalScreen from './screens/ProjectPortalScreen';
-import RequirementsScreen from './screens/RequirementsScreen';
+
 import CalendarScreen from './screens/CalendarScreen';
 import ProfileScreen from './screens/ProfileScreen';
 import AuthScreen from './screens/AuthScreen';
