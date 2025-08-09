@@ -48,7 +48,7 @@ export default function App() {
   }
 
   if (!roleSelected) {
-    return <RoleSelectionScreen onRoleSelected={() => setRoleSelected(true)} />;
+    return <RoleSelectionScreen />;
   }
 
   return (
